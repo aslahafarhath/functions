@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/class 7 function.css">
+</head>
+<style>
+    .main{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+#p1{
+    background-color: blueviolet;
+}
+</style>
+<body>
+    <p id="p1">hello</p>
+    <button onclick="changeme()">click me</button>
+
+    <div class="main" id="main"></div>
+    <button onclick="changestyle()">change me</button>
+</body>
+<script src="./js/class 7 function.js"></script>
+</html>
